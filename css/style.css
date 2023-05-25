@@ -1,0 +1,86 @@
+h1{
+    font-size:3.5rem;
+    color: lightcoral;
+}
+h2{
+  color: #11999E;
+}
+.topnav {
+    overflow: hidden;
+    background-color:#171a19;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 17px;
+    position:sticky;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .topnav a.passive{
+    background-color: #04AA6D;
+    color: white;
+  }
+  .topnav a.passive2{
+    background-color: #04AA6D;
+    color: white;
+  }
+body{
+    background-color: #E4F9F5;   
+    font-family: "Sofia", sans-serif;
+    overflow: auto;
+    text-align: center;
+    line-height: 2;
+}
+nav{
+    display: inline-flex;
+    position: relative;
+    left: auto;
+    right: auto;
+}
+p{
+    padding:2em;
+}
+hr{
+    padding: auto;
+}
+footer{
+    background-color: #66BFBF;
+}
+div.personal{
+    padding: auto;
+    padding-left: 5em;
+}
+#c1{
+  padding: 2.5rem;
+  margin-left: 55rem;
+  margin-top:  0.2rem;
+  border: 0ch;
+}
+#c2{
+  margin-right: 55rem;
+  margin-top: 0.5rem;
+  border: 0ch;
+}
+#c3{
+  margin-left: 55rem;
+  border: 0px;
+}
+#c4{
+  margin-right: 45rem;
+  border: 0px;
+}
+#m1{
+ display: flex;
+ position: relative;
+}

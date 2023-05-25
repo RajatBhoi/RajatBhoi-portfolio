@@ -1,0 +1,75 @@
+.topnav {
+    overflow: hidden;
+    background-color:#171a19;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+body{
+  background-image:URL(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.itprotoday.com%2Fdevops-and-software-development%2Fprogramming-evolution-how-coding-has-grown-easier-past-decade&psig=AOvVaw2mboD-hKqxoN62Wh-HcDzh&ust=1667885755857000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKjZ0eOsm_sCFQAAAAAdAAAAABAD);
+  background-color: #E4F9F5;   
+  font-family: "Sofia", sans-serif;
+  overflow: auto;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+h2{
+  color: #11999E;
+}
+footer{
+  background-color: #66BFBF;
+}
+.Myskill{
+  width: 50%;
+  margin: 40px auto 40px auto;
+  text-align: left;
+  line-height: 1; 
+}
+.web-image{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.tro-image{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+.edu{
+  width: 50%;
+  margin: 40px auto 40px auto;
+  text-align: left;
+  line-height: 2;
+}
+.mat-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.int-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.grad-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
