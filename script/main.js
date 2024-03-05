@@ -28,5 +28,18 @@ const JSuser = {
     lastloginDays: ["Monday","Thursday"]
 }
 
-console.log(typeof JSuser.email);
+/*console.log(typeof JSuser.email);
 console.log(JSuser["email"]);
+JSuser.email="rajat.bhoi@google.com"
+Object.freeze(JSuser)
+JSuser.email="rajat@outlook.com"
+console.log(JSuser);*/
+JSuser.greeting =function(){
+    console.log("Hello JS user");
+}
+
+JSuser.greetingtwo =function(){
+    console.log(`Hello JS user ,${this.name}`)
+}
+
+console.log(JSuser.greetingtwo());
